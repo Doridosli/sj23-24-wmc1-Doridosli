@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-with, initial-scale=1.0">
         <title>JDM-Cars</title>
-        <link rel="stylesheet" type="text/css" href="JDM Webseite css.css">
+        <link rel="stylesheet" type="text/css" href="JDM-CARS CSS.css">
     </head>
 
     <header>
@@ -21,7 +21,7 @@
 <body>
     <div id="jdm-autos">
         <div style="float: right">
-            <img src="6925a9a62947064c45fd58f2405a0c2d.jpg"/>
+            <img src="images.jpg"/>
         </div>
         <h1>JDM-Autos</h1>
         <div>
@@ -112,15 +112,28 @@
 
 </section>
 
-<footer id="Kontakt">
+<footer id="kontakt">
+
     <h5>Kontakt</h5>
+    
     <form>
-        <label for="fname">Vorname:</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br>
-        <label for="lname">Nachname:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
-        <input type="submit" value="Submit">
-      </form> 
+        Name: <input type="text">
+
+        Email: <input type="text">
+
+        Ich bin kein Roboter: <input type="checkbox">
+
+        <button>Abschicken</button>
+
+        <script>
+            const btn = document.querySelector("button");
+
+            btn.addEventListener('click', function() {
+                alert("Sie wurden in den Newsletter-Verteiler aufgenommen!");
+            });
+        </script>
+    </form>
+</footer>
     
 </footer>
 </body>

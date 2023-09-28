@@ -1,3 +1,5 @@
+
+
 header{
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -20,7 +22,7 @@ header .navbar ul{
 header .navbar ul li{
     position: relative;
     float: left;
-    right: -30em;
+    right: -17em;
 
 }
 
@@ -73,8 +75,8 @@ ol{
 }
 
 h3{
-    position: relative;
-    bottom: -13em;
+   position: relative;
+   bottom: -11em;
     text-align: center;
     font-size: x-large;
     color: rgb(226, 5, 189);
@@ -82,11 +84,12 @@ h3{
 
 table{
     position: relative;
-    bottom: -10em;
+    bottom: -18em;
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
     background-color: #e7feff;
+
   }
   td, th {
     border: 1px solid #dddddd;
@@ -104,7 +107,11 @@ thead{
 
 form{
     position: relative;
-    bottom: -8em;
+    bottom: -20em;
 }
 
- 
+h5{
+    position: relative;
+    top: 25em;
+    color: rgb(226, 5, 189);
+}
