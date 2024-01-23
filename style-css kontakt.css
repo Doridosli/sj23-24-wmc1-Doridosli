@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: black;
+    box-shadow: 0 5px 10px  #b168e1;
+    padding: 20px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+header .navbar ul{
+    list-style: none;
+}
+
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+    right: -44em;
+
+}
+
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    color:#b168e1;
+    text-decoration: none ;
+}
+
+header .navbar ul li a:hover{
+    background:#b168e1;
+    color: black;}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(car\ contact.JPG);
+    background-size: cover;
+    position: relative;
+   
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2{
+    font-size: 50px;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    bottom: -2em;
+}
+
+.contact .content p{
+    font-weight: 300;
+    font-size: medium;
+    color:black ;
+    font-size: 20px;
+    position: relative;
+    bottom: -6em;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: -12em;
+}
+
+.container .contactInfo .box{
+    position: relative;
+    left: -5em;
+    padding: 20px 0;
+    display: flex;
+    font-size: 20px;
+
+}
+
+
+.container .contactInfo{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+
+}
+
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    position: relative;
+    right: -17em;
+    top: -150;
+
+    background: #b168e1;
+    color: black;
+
+}
+
+.contactForm h2{
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+}
+
+.contactForm .inputBox{
+    position: relative;
+   width: 100%; 
+   margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+    resize: none;
+}

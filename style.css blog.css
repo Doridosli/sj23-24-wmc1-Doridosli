@@ -1,0 +1,228 @@
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: white;
+    box-shadow: 0 5px 10px rgb(226, 5, 189);
+    padding: 20px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+header .navbar ul{
+    list-style: none;
+}
+
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+    right: -44em;
+
+}
+
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    color: rgb(226, 5, 189);
+    text-decoration: none ;
+}
+
+header .navbar ul li a:hover{
+    background:rgb(226, 5, 189);
+    color: white;}
+
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+    position: relative;
+    bottom: -15em;
+}
+
+.img-fluid{
+    width: 100%;
+    position: relative;
+    
+}
+
+#site-main{
+    margin-top: 8em;
+    position: relative;
+    top: -5em; ;
+}
+
+#posts{
+    margin-bottom: 5em;
+}
+
+
+.grid{
+    margin: 0 auto;
+}
+
+.grid .grid-item{
+    width:calc(33.3333%);
+}
+
+.text-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.secondary-title{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+.display-1{
+    font-size: 22px;
+}
+
+.display-2{
+    font-size: 16px;
+}
+
+.display-3{
+    font-size: 14px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(100, 23, 78);
+}
+
+#Bild1{
+    position: relative;
+    left:  -5em;
+
+}
+#Text0{
+    position: relative;
+    left: -5em;
+    bottom: -1em;
+}
+
+
+#Bild2{
+    width: 500px;
+    position: relative;
+    right:-25em;
+    top: -49em;
+}
+
+#Text1{
+    position: relative;
+    top: -48em;
+    right: -5em;
+}
+
+#Bild3{
+    width: 500px;
+    position: relative;
+    right: -25em;
+    top: -48em;
+}
+
+#Text2{
+    position: relative;
+    right: -4em;
+    top: -47em;
+}
+
+#Bild4{
+    width: 450px;
+    position: relative;
+    right: -81em;
+    top: -82em;
+
+}
+
+#Text4{
+    position: relative;
+    right: -37em;
+    top: -80em;
+}
+
+h1{
+    position: relative;
+    bottom: -3em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color:rgb(100, 23, 78);
+}
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background:  rgb(226, 5, 189);
+    color:rgb(100, 23, 78) ;
+    display: flex;
+   position: relative;
+   top: -95em;
+}
+
+.footer div{
+    text-align: center;
+}
+
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color:rgb(100, 23, 78) ;
+    margin-bottom: 10px;
+}
+
+.col-2{
+   position: relative;
+   right: -20em
+}
+
+.col-3{
+    position: relative;
+    right: -40em;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button{
+    background: transparent;
+    border: 2px solid rgb(100, 23, 78);
+    color: rgb(100, 23, 78);
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+

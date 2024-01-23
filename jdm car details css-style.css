@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(47, 47, 90)
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: relative;
+    bottom: -15em;
+    color: rgba(34, 34, 92, 0.822)
+}
+
+.card {
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius:  15px;
+}
+
+.card-image {
+    background-color: black;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+    background-image: url('https://soymotor.com/sites/default/files/styles/watermark_wide_960/public/imagenes/article/historia_logos_japon_soymotor.jpg.webp?itok=a6Y8EGxl');
+}
+
+.car-2 {
+background-image: url(https://images.wallpaperscraft.com/image/single/sports_car_drift_race_131217_3840x2400.jpg);
+}
+
+.car-3 {
+background-image: url(https://w0.peakpx.com/wallpaper/193/530/HD-wallpaper-stunning-of-japan-s-car-culture-japan-suburbs.jpg);
+}
+
+.car-4 {
+background-image: url(https://wideandlow.files.wordpress.com/2010/04/honda7.jpg)
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card a {
+    background-color: white;;
+    color: rgba(34, 34, 92, 0.822);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.card:hover {
+    background-color:RGB(175, 169, 222) ;
+    color: #5A5A2F;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: rgb(47, 47, 90) ;
+    box-shadow: 0 5px 10px #5A5A2F;
+    padding: 20px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+header .navbar ul{
+    list-style: none;
+}
+
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+    right: -44em;
+
+}
+
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    color:#5A5A2F ;
+    text-decoration: none ;
+}
+
+header .navbar ul li a:hover{
+    background:#5A5A2F;
+    color:  rgb(47, 47, 90);}
+
+
+    h1{
+        position: relative;
+        bottom: -5em;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color:RGB(231, 225, 255) ;
+        font-size: 35px;
+
+    }
+
+    .footer{
+        margin-top: 150px;
+        width: 100%;
+        padding: 100px 15%;
+        background: #5A5A2F ;
+        color: rgb(47, 47, 90);
+        display: flex;
+       position: relative;
+       bottom: -35em;
+    }
+    
+    .footer div{
+        text-align: center;
+    }
+    
+    .col-1 a{
+        display: block;
+        text-decoration: none;
+        color:rgb(47, 47, 90);
+        margin-bottom: 10px;
+    }
+    
+    .col-2{
+       position: relative;
+       right: -20em
+    }
+    
+    .col-3{
+        position: relative;
+        right: -40em;
+    }
+    
+    .footer div h3{
+        font-weight: 300;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+    }
+    
+    form input{
+        width: 400px;
+        height: 45px;
+        border-radius: 4px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        outline: none;
+        border: none;
+    }
+    
+    form button{
+        background: transparent;
+        border: 2px solid rgb(47, 47, 90);
+        color: rgb(47, 47, 90);
+        border-radius: 30px;
+        padding: 10px 30px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
